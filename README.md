@@ -12,8 +12,8 @@ Change filename `config_template.yaml` to `config.yaml` and make sure that it is
 * `from`: your email adress
 * `to`: destination of the message
 
-Some common email service providers:
-|Mail|SMTP_Server|Port|Password|
+Some email service providers:
+|Mail|SMTP Server|Port|Password|
 |:----:|:----:|:----:|:----:|
 |QQ|smtp.qq.com|587|authentication code|
 |163|smtp.163.com|25|authentication code|
