@@ -1,0 +1,14 @@
+/.vscode
+
+__pycache__
+
+/build
+/dist
+*.spec
+.pyw
+.exe
+
+
+config.yaml
+*.txt
+

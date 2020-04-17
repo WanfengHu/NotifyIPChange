@@ -1,0 +1,7 @@
+email:
+  computer_name:
+  server: mails.tsinghua.edu.cn
+  port: 25
+  password: ${MAIL_PASSWORD}
+  from: ${MAIL_FROM}
+  to: ${MAIL_TO}
