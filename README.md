@@ -1,5 +1,6 @@
 # NotifyIPChange
 A python script that notifies the change of server local IP address via email.
+For Windows users, you can find the executable in [release](https://github.com/BlackNight95/NotifyIPChange/releases).
 
 # Usage
 Change filename `config_template.yaml` to `config.yaml` and make sure that it is in the same directory as the python script. Set up your own configurations and run the script.
@@ -21,7 +22,7 @@ Some email service providers:
 |Gmail|smtp.gmail.com|587|user password|
 |Tsinghua|mails.tsinghua.edu.cn <br> mail.tsinghua.edu.cn|25|user password|
 
-* For security and privacy reasons, the `passcode`, `from` and `to` configs use environment variables, so you must define them in your local system prior to usage.
+* For security and privacy reasons, the `passcode`, `from` and `to` configs are able to use environment variables. 
 * For authentication code, you need to get it from your email service provider (normally can be found in your personal account settings).
 * For gmail, you may need to turn on [this](https://www.google.com/settings/security/lesssecureapps) safety feature.
 
