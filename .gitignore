@@ -11,4 +11,5 @@ __pycache__
 
 config.yaml
 *.txt
+!requirements.txt
 
